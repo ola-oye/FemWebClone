@@ -1,21 +1,27 @@
-
+*{
+    box-sizing: border-box;
+}
 body{
-    float: center;
     background-color: #e5eff5;
     font-family: "karla", sans-serif;
+    margin: 0;
+}
+main{
+    margin: 6% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     width: 80%;
     max-width: 400px;
+    display: grid;
+    justify-content: center;
+    
 }
-
 .call{
     background-color: #fff;
-    padding: 6px 40px;
+    padding: 8px 40px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -37,7 +43,7 @@ body{
 .sub{
     color: #fff;
     background-color: #2ab2af;
-    padding: 8px 40px;
+    padding: 8px 40px; 
     width: 100%;
 }
 
@@ -67,9 +73,11 @@ body{
 .sub-btn{
     background-color: #c0df34;
     text-align: center;
-    margin: 35px 0;
+    margin: 35px 1%;
     padding: 15.5px 0;
     border-radius: 5px;
+    cursor: pointer;
+    
 }
 .signup-btn{
     color: #fff;
@@ -81,11 +89,9 @@ body{
 .why{
     background-color: #2ab2af;
     color: #fff;
-    opacity: .6;
+    opacity: .7;
     width: 100%;
-    padding: 6px 40px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    padding: 8px 40px; 
 }
 .why-h1{
     font-size: 24px;
@@ -102,8 +108,47 @@ body{
     display: inline-block;
     padding: 0;
     margin-top: 0;
+    width: 100%;
 }
 li{
     padding: 3px;
     list-style-position: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .why{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-start: 1;
+        grid-row-end: 3;
+        max-width: 800px;
+    }
+    .grid-col-span-2{
+        grid-column: span 2;
+    }
+    .call{
+        padding: 8px 60px;
+        padding-bottom: 20px;
+    }
+    .sub{
+        padding: 8px 30px; 
+        border-bottom-left-radius: 5px;
+    }
+    .why{
+        padding: 8px 30px; 
+        border-bottom-right-radius: 5px;
+    }
+    
 }
