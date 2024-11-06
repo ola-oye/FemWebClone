@@ -61,4 +61,4 @@ This repository will continue to expand with more advanced challenges on Fronten
 ## Resources & Acknowledgments
 - [Frontend Master](https://frontendmasters.com/) for providing structured and beginner-friendly challenges.
 - [CSS Tricks](https://css-tricks.com/) and [MDN Web Docs](https://developer.mozilla.org/) for in-depth CSS resources.
-Special thanks to the developer community for their support and resources.
+- Special thanks to the developer community for their support and resources.
