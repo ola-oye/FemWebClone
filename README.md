@@ -58,9 +58,7 @@ This repository contains solutions for various frontend challenges on [Frontend 
 ## Future Challenges
 This repository will continue to expand with more advanced challenges on Frontend Master. I plan to incorporate **JavaScript** once I complete the JavaScript course, adding interactivity and improving functionality.
 
-## Resources
+## Resources & Acknowledgments
 - [Frontend Master](https://frontendmasters.com/) for providing structured and beginner-friendly challenges.
 - [CSS Tricks](https://css-tricks.com/) and [MDN Web Docs](https://developer.mozilla.org/) for in-depth CSS resources.
-
-## Acknowledgments
 Special thanks to the developer community for their support and resources.
